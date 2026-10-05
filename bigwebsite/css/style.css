@@ -1,0 +1,64 @@
+body {
+min-width: 3000px;
+min-height: 3000px;
+overflow: auto;
+position: relative;
+background: linear-gradient(to bottom, #7fd8ff, #0a3d62, #000000);
+font-family: Georgia, serif;
+color: white;
+}
+#title {
+position: absolute;
+top: 20px;
+left: 20px;
+font-size: 3rem;
+}
+.note {
+position: absolute;
+font-size: 1.5rem;
+}
+#middle {
+top: 1500px;
+left: 1400px;
+}
+#farright {
+top: 300px;
+right: 40px;
+}
+#bottom {
+bottom: 20px;
+right: 20px;
+}
+#Shark {
+position: absolute;
+top: 2000px;
+left: 600px;
+z-index: 1;
+}
+.surprise {
+position: absolute;
+top: 2150px;
+left: 700px;
+z-index: 2;
+color: red;
+font-size: 3rem;
+font-weight: bold;
+}
+#sign {
+position: absolute;
+top: 150px;
+left: 20px;
+width: 350px;
+ height: 120px;
+margin: 10px;
+padding: 15px;
+border: 3px solid white;
+background-color: black;
+opacity: 0.8;
+text-align: center;
+font-style: italic;
+}
+.glow {
+text-decoration: underline;
+color: yellow;
+}
